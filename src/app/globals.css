@@ -1,0 +1,7 @@
+/* src/app/globals.css */
+@import "tailwindcss";
+
+@theme {
+  --color-brand-purple: #7c3aed;
+  --color-brand-purple-dark: #6d28d9;
+}
