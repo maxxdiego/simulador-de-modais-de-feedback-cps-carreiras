@@ -8,7 +8,7 @@ import InterruptionModal from "@/components/InterruptionModal";
 import { evaluationConfigs } from "@/data/evaluationConfigs";
 import { interruptionConfigs } from "@/data/interruptionConfigs";
 
-const POST_LOAD_DELAY_MS = 2500;
+const POST_LOAD_DELAY_MS = 1500;
 
 type PendingTarget =
   | { type: "evaluation"; id: string; image: string }
