@@ -52,7 +52,7 @@ export default function Home() {
       <Navbar />
 
       <main className="mx-auto max-w-4xl p-8">
-        <h1 className="mb-1 text-2xl font-bold text-gray-900">Simulador de Modais — CPS Carreiras</h1>
+        <h1 className="mb-1 text-2xl font-bold text-gray-900">Simulador de Modais de Feedback</h1>
         <p className="mb-8 text-gray-500">Escolha um modal para simular o fluxo de interação.</p>
 
         <h2 className="mb-3 text-lg font-semibold text-purple-700">Avaliações</h2>
