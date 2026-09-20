@@ -7,7 +7,7 @@ export const courseConfig: EvaluationConfig = {
   title: "Avaliação de Curso",
   subtitle: "Sua opinião ajuda a melhorar nossos cursos",
   icon: GraduationCap,
-  image: "/images/curso.png",
+  image: "/images/curso.jpg",
   generalQuestion: "De forma geral, como você avalia este curso?",
   hasConfirmStep: true,
   resolveDetail: (rating: Rating) => {
@@ -66,7 +66,7 @@ export const trilhaConfig: EvaluationConfig = {
   title: "Avaliação de Trilha",
   subtitle: "Sua opinião ajuda a melhorar nossas trilhas de aprendizagem",
   icon: Compass,
-  image: "/images/trilha.png",
+  image: "/images/trilha.jpg",
   generalQuestion: "De forma geral, como você avalia esta trilha?",
   hasConfirmStep: true,
   resolveDetail: (rating: Rating) => {
@@ -109,7 +109,7 @@ export const platformConfig: EvaluationConfig = {
   title: "Avaliação da Plataforma",
   subtitle: "Conte como foi sua experiência usando a plataforma CPS Carreiras",
   icon: Monitor,
-  image: "/images/home.png",
+  image: "/images/home.jpg",
   generalQuestion:
     "Como foi sua experiência ao usar a plataforma CPS Carreiras?",
   hasConfirmStep: true,
@@ -150,7 +150,7 @@ export const mapaConfig: EvaluationConfig = {
   title: "Mapa de Carreiras",
   subtitle: "Sua opinião sobre o resultado do seu Mapa de Carreiras",
   icon: Map,
-  image: "/images/mapa-de-carreiras.png",
+  image: "/images/mapa-de-carreiras.jpg",
   generalQuestion:
     "De forma geral, como você avalia sua experiência com o Mapa de Carreiras?",
   hasConfirmStep: true,
@@ -203,7 +203,7 @@ export const simuladorConfig: EvaluationConfig = {
   title: "Simulador de Entrevistas",
   subtitle: "Sua opinião sobre a simulação de entrevista",
   icon: Mic,
-  image: "/images/simulador-de-entrevistas.png",
+  image: "/images/simulador-de-entrevistas.jpg",
   generalQuestion:
     "De forma geral, como você avalia sua experiência com o Simulador de Entrevistas?",
   hasConfirmStep: true,
