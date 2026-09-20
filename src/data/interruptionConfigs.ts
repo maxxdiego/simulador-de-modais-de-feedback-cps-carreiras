@@ -7,7 +7,7 @@ export const courseTrilhaInterruption: InterruptionConfig = {
   title: "Interrupção de Curso/Trilha",
   subtitle: "Notamos que você não finalizou esta atividade",
   icon: PauseCircle,
-  image: "/images/curso.png",
+  image: "/images/curso.jpg",
   question:
     "Notamos que esta atividade ficou sem conclusão. Qual foi o principal motivo?",
   reasons: [
@@ -27,7 +27,7 @@ export const mapaInterruption: InterruptionConfig = {
   title: "Interrupção do Mapa de Carreiras",
   subtitle: "Notamos que você não finalizou o Mapa de Carreiras",
   icon: PauseCircle,
-  image: "/images/mapa-de-carreiras.png",
+  image: "/images/mapa-de-carreiras.jpg",
   question:
     "Notamos que o Mapa de Carreiras ficou sem conclusão. Qual foi o principal motivo?",
   reasons: [
@@ -47,7 +47,7 @@ export const simuladorInterruption: InterruptionConfig = {
   title: "Interrupção do Simulador de Entrevistas",
   subtitle: "Notamos que você não finalizou a simulação",
   icon: PauseCircle,
-  image: "/images/simulador-de-entrevistas.png",
+  image: "/images/simulador-de-entrevistas.jpg",
   question:
     "Notamos que a simulação ficou sem conclusão. Qual foi o principal motivo?",
   reasons: [
