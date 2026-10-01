@@ -42,18 +42,18 @@ export const courseConfig: EvaluationConfig = {
 
     if (rating <= 2) {
       return {
-        question: "O que poderia ter sido melhor neste curso?",
+        question: "O que poderia ter sido melhor neste curso? (marque mais de uma opção)",
         options: [...negativeOptions, "Outro"],
       };
     }
     if (rating === 3) {
       return {
-        question: "Conte um pouco mais sobre sua avaliação.",
+        question: "Conte um pouco mais sobre sua avaliação (marque mais de uma opção).",
         options: [...negativeOptions, ...positiveOptions, "Outro"],
       };
     }
     return {
-      question: "O que mais contribuiu para a sua avaliação?",
+      question: "O que mais contribuiu para a sua avaliação? (marque mais de uma opção)",
       options: [...positiveOptions, "Outro"],
     };
   },
@@ -85,18 +85,18 @@ export const trilhaConfig: EvaluationConfig = {
 
     if (rating <= 2) {
       return {
-        question: "Conte um pouco mais sobre sua avaliação.",
+        question: "Conte um pouco mais sobre sua avaliação (marque mais de uma opção).",
         options: [...negativeOptions, "Outro"],
       };
     }
     if (rating === 3) {
       return {
-        question: "Conte um pouco mais sobre sua avaliação.",
+        question: "Conte um pouco mais sobre sua avaliação (marque mais de uma opção).",
         options: [...negativeOptions, ...positiveOptions, "Outro"],
       };
     }
     return {
-      question: "Conte um pouco mais sobre sua avaliação.",
+      question: "Conte um pouco mais sobre sua avaliação (marque mais de uma opção).",
       options: [...positiveOptions, "Outro"],
     };
   },
@@ -126,18 +126,18 @@ export const platformConfig: EvaluationConfig = {
 
     if (rating <= 2) {
       return {
-        question: "O que você percebeu ao utilizar a plataforma?",
+        question: "O que você percebeu ao utilizar a plataforma? (marque mais de uma opção)",
         options: [...negativeOptions, "Outro"],
       };
     }
     if (rating === 3) {
       return {
-        question: "O que você percebeu ao utilizar a plataforma?",
+        question: "O que você percebeu ao utilizar a plataforma? (marque mais de uma opção)",
         options: [...negativeOptions, ...positiveOptions, "Outro"],
       };
     }
     return {
-      question: "O que você percebeu ao utilizar a plataforma?",
+      question: "O que você percebeu ao utilizar a plataforma? (marque mais de uma opção)",
       options: [...positiveOptions, "Outro"],
     };
   },
@@ -179,18 +179,18 @@ export const mapaConfig: EvaluationConfig = {
     if (rating <= 2) {
       return {
         question:
-          "O que poderia ter sido melhor na sua experiência com o Mapa de Carreiras?",
+          "O que poderia ter sido melhor na sua experiência com o Mapa de Carreiras? (marque mais de uma opção)",
         options: [...negativeOptions, "Outro"],
       };
     }
     if (rating === 3) {
       return {
-        question: "Conte um pouco mais sobre sua avaliação.",
+        question: "Conte um pouco mais sobre sua avaliação (marque mais de uma opção).",
         options: [...negativeOptions, ...positiveOptions, "Outro"],
       };
     }
     return {
-      question: "O que mais contribuiu para sua avaliação?",
+      question: "O que mais contribuiu para sua avaliação? (marque mais de uma opção)",
       options: [...positiveOptions, "Outro"],
     };
   },
@@ -236,18 +236,18 @@ export const simuladorConfig: EvaluationConfig = {
     if (rating <= 2) {
       return {
         question:
-          "O que poderia ter sido melhor na sua experiência com o Simulador de Entrevistas?",
+          "O que poderia ter sido melhor na sua experiência com o Simulador de Entrevistas? (marque mais de uma opção)",
         options: [...negativeOptions, "Outro"],
       };
     }
     if (rating === 3) {
       return {
-        question: "Conte um pouco mais sobre sua avaliação.",
+        question: "Conte um pouco mais sobre sua avaliação (marque mais de uma opção).",
         options: [...negativeOptions, ...positiveOptions, "Outro"],
       };
     }
     return {
-      question: "O que mais contribuiu para sua avaliação?",
+      question: "O que mais contribuiu para sua avaliação? (marque mais de uma opção)",
       options: [...positiveOptions, "Outro"],
     };
   },
